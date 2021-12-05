@@ -1,0 +1,14 @@
+[
+    {
+        "users": [
+            {
+                "name": "ethan",
+                "surname": "alexander",
+                "username": "ethan",
+                "email": "ethanxander@gmail.com",
+                "password": "test",
+                "role": "group manager at group x"
+            }
+        ]
+    }
+]

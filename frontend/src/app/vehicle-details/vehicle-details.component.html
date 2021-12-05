@@ -1,0 +1,67 @@
+<div id="car_detail">
+  <p id="title">
+    {{vehicle.name}}
+  </p>
+  <div class="image">
+    <img src="{{vehicle.images[0].url}}" width="400px">
+  </div>
+  <div class="options">
+    <p>Vehicle</p>
+    <p>Options</p>
+    <p>Finance</p>
+  </div>
+
+  <div class="specs">
+    <div class="row">
+      <div class="col">Color: </div>
+      <div class="col">{{vehicle.color}}</div>
+    </div>
+    <div class="row">
+      <div class="col">Transmission</div>
+      <div class="col">{{vehicle.transmission}}</div>
+    </div>
+    <div class="row">
+      <div class="col">Fuel</div>
+      <div class="col">{{vehicle.fuelType}}</div>
+    </div>
+    <div class="row">
+      <div class="col">Interior</div>
+      <div class="col">{{vehicle.interiorTrim}}</div>
+    </div>
+    <div class="row">
+      <div class="col">Top Speed</div>
+      <div class="col">{{vehicle.topSpeed}}</div>
+    </div>
+    <div class="row">
+      <div class="col">0 - 62mph</div>
+      <div class="col">{{vehicle.acceleration}}</div>
+    </div>
+    <div class="row">
+      <div class="col">Torque</div>
+      <div class="col">{{vehicle.torque}}</div>
+    </div>
+    <div class="row">
+      <div class="col">Power</div>
+      <div class="col">{{vehicle.power}}</div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="additional">
+      <div class="row">
+        <div class="col">Color: </div>
+        <div class="col">{{vehicle.color}}</div>
+      </div>
+      <div class="row">
+        <div class="col">Transmission</div>
+        <div class="col">{{vehicle.transmission}}</div>
+      </div>
+      <div class="row">
+        <div class="col">Fuel</div>
+        <div class="col">{{vehicle.fuelType}}</div>
+      </div>
+  </div>
+
+
+  </div>
+</div>

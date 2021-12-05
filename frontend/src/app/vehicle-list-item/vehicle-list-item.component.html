@@ -1,0 +1,33 @@
+<div class="vehicle-list-item" (click)="launchDetails()">
+    <div class="img_container">
+        <img width="100%"
+            src='{{vehicle.images[0].url}}'>
+    </div>
+    <div class="information_container">
+        <div class="stock">
+            <p>{{vehicle.processingType}}</p>
+            <p class="right">{{vehicle.orderNumber}} | {{vehicle.dealerGroup}}</p>
+        </div>
+        <div class="car_details">
+            <p id="car_title">
+                {{vehicle.name}}
+            </p>
+            <p id="finance_price">
+                £{{vehicle.monthlyPrice}}
+            </p>
+        </div>
+    </div>
+
+    <div class="finance_container">
+       <p>£1500</p>
+       <p>£2000</p>
+       <p>£3000</p>
+    </div>
+
+    <div class="addtional_container">
+        <p>193| F2: 9 Sep 20 | F3 9 Oct 20</p>
+    </div>
+</div>
+
+<app-vehicle-details *ngIf="showDetailsCard" [vehicle]="vehicle" class="overlay" (click)="closeDetails()">
+</app-vehicle-details>

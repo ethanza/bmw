@@ -1,0 +1,7 @@
+<div class="results">
+
+  <div class="total">
+    <p>Showing <span class="bold">n of {{vehiclesData.length}} total</span> vehicles </p>
+  </div>
+  <app-vehicle-list-item *ngFor="let vehicle of vehiclesData; index as i; first as isFirst" [vehicle]="vehicle"></app-vehicle-list-item>
+</div>

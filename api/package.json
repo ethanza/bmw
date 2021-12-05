@@ -1,0 +1,18 @@
+{
+  "name": "brainiac",
+  "version": "1.0.0",
+  "description": "Use this project as your backend solution. We included a few npm packages to to start with.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frontend | Phillip Kemp | Tiaan van Rooyen",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "path": "^0.12.7",
+    "rxjs": "^6.6.3"
+  }
+}

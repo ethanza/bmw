@@ -1,0 +1,14 @@
+Use ths file to explain anything you like us to know.
+
+#Took me quite a while to get this to build, had to upgrade the  "@angular-devkit/build-angular": "^0.13.0",
+#username: ethan password: test
+#logging creates a session and creates a token
+#session is stored in local storage for persistance and refresh
+#logout clears the session
+
+#api end point created and logic written to query the users.json to validate username and password
+#incorrect username/password returns a 401 unauthorized from api
+#you can add new users to the json file and authentication will work 
+#no validation is added yet for the vehicles, however token can be passed through on the request headers
+
+

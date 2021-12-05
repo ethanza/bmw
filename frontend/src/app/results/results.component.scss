@@ -1,0 +1,26 @@
+.results {
+  position: absolute;
+  width: 100%;
+  min-height: 100px;
+  display: inline-block;
+  top: 60px;
+  margin-left: 20px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.total {
+  background-color: #ffffff;
+  height: 48px;
+  margin-bottom: 20px;
+
+  p {
+    vertical-align: middle;
+    padding-top: 12px;
+    padding-left: 20px;
+  }
+}
+
+.bold{
+  font-weight: bold;
+}
